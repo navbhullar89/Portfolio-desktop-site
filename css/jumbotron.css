@@ -1,0 +1,38 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+/****** Custom work for this assignment *******/
+
+/* Home page styling */
+#prev-image-btn{margin:0 50px 0 20px;}
+#next-image-btn{margin:0 20px 0 70px;}
+#image-slider{border: solid 1px #aaa; height:225px;}
+#image-slider{border: solid 1px #aaa; height:225px;}
+
+div.featured-work, div.follow-me
+{
+	background-color:#ececec;
+	width:45%;
+	text-align:center;
+	height: 350px;
+	margin-left: 30px;
+}
+
+div.follow-me  nav{ margin: 75px; }
+
+span.theme-credits{margin-left: 600px; font-size:0.9em; font-style:italic;}
+
+/* Logo display styling - setting it as background and displaying to the left */
+.navbar .container{height:30px;}
+.navbar img#logo-id{
+  position: relative;
+  top: 5px;
+  left: -625px;
+}
+
+ul.navbar-nav {  
+   margin-left: 110px;
+}
